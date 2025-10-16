@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Dimora di Nonna Dora</title>
+    <link rel= "stylesheet" href="style.css">
+    <link rel="s">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!-- SEO Base -->
+    <title>La Dimora di Nonna Dora</title>
+    <meta name="description" content="Scopri La Dimora di Nonna Dora, casa vacanza nel cuore della valle d'itria.">
+    <meta name="keywords" content="casa vacanza, Valle d'Itria, Nonna Dora, casa vancanza puglia, puglia, apulia, casa vacanza martina franca, martina franca, bed and breakfast,">
+    
+    <!-- Open Graph (Facebook / WhatsApp / LinkedIn) -->
+    <meta property="og:title" content="La Dimora di Nonna Dora">
+    <meta property="og:description" content="Scopri La Dimora di Nonna Dora, casa vacanza nel cuore della valle d'itria.">
+    <meta property="og:image" content="https://ladimoradinnondora.com/favicon.png">
+    <meta property="og:url" content="https://ladimoradinnondora.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="La Dimora di Nonna Dora">
+    <meta name="twitter:description" content="Scopri La Dimora di Nonna Dora, casa vacanza nel cuore della valle d'itria.">
+    <meta name="twitter:image" content="https://ladimoradinnondora.com/favicon.png">
+    
+    <!-- PNG moderni -->
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+    
+    <!-- ICO fallback -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Apple Touch (Safari / iOS) -->
+    <link rel="apple-touch-icon" href="favicon.png">
+    <style>
+        .whatsapp-banner {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            text-decoration: none !important;
+        }
+        
+
+        
+        .whatsapp-banner:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+        }
+        
+        .whatsapp-banner i {
+            font-size: 32px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .instagram-banner {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: linear-gradient(45deg, rgba(240, 148, 51, 0.8) 0%, rgba(230, 104, 60, 0.8) 25%, rgba(220, 39, 67, 0.8) 50%, rgba(204, 35, 102, 0.8) 75%, rgba(188, 24, 136, 0.8) 100%);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            color: white;
+            width: auto;
+            height: 60px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            text-decoration: none !important;
+            padding: 0 20px;
+        }
+        
+        .instagram-banner:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+        }
+        
+        .instagram-banner i {
+            font-size: 32px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+        
+        .instagram-banner span {
+            font-size: 16px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        
+        /* Stile per il banner dei cookie */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 8px 15px;
+            z-index: 9999;
+            display: none; /* Nascosto di default, verrà mostrato con JavaScript */
+            font-size: 13px;
+            line-height: 1.3;
+        }
+        
+        .cookie-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .cookie-content p {
+            margin: 0;
+            padding: 5px 0;
+            flex: 1;
+        }
+        
+        .cookie-buttons {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .cookie-buttons button {
+            padding: 6px 12px;
+            font-size: 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        #accept-cookies {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        #cookie-policy-btn {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .cookie-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .cookie-buttons {
+                margin-top: 10px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a class="scritte" href="#home">Home</a></li>
+                <li><a class="scritte" href="#rooms">Camere</a></li>
+                <li><a class="scritte" href="#about">Chi Siamo</a></li>
+                <li><a class="scritte" href="#gallery">Galleria</a></li>
+                <li><a class="scritte" href="#location">Dove Siamo</a></li>
+                <li><a class="scritte" href="#contact">Contattaci</a></li> 
+                <li><a class="loghi" href="mailto:ladimoradinonnadora@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a class="loghi" href="https://maps.app.goo.gl/a1d7wMKmYEbJ2sTg9" target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
+                <li><a class="loghi" href="tel:+393770850432"><i class="fas fa-phone"></i></a></li>
+            </ul>
+    
+    </nav>
+    
+    <header id="home">
+        <div class="logo"> La Dimora di Nonna Dora</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="tagline">Semplicità ed eleganza per il tuo soggiorno</div>
+        <a href="#rooms" class="btn">Scopri la struttura</a>
+    </header>
+    
+    <section id="rooms">
+        <div class="container">
+            <h2>La Nostra struttura </h2>
+            <div class="rooms">
+                
+                
+                <div class="room">
+                    <img src="letto1.jpg" alt="Camera Matrimoniale">
+                    <div class="room-info">
+                        <h3>Camera Matrimoniale</h3>
+                        <p>Camera Matrimoniale dotata di condizionatore e bagnetto privato, possibilità di aggiungere una culla su richiesta.</p>
+                        <div class="price">€... / notte (intera struttura)</div>
+                    </div>
+                </div>
+                <div class="room">
+                    <img src="letto2.jpg" alt="Camera Divano-Letto">
+                    <div class="room-info">
+                        <h3>Camera Divano-Letto</h3>
+                        <p>Camera Divano Letto dotata di condizionatore e tv a schermo piatto.</p>
+                        <div class="price">€... / notte (intera struttura)</div>
+                    </div>
+                </div>
+                <div class="room">
+                    <img src="letto3.jpg" alt="Zona Giorno">
+                    <div class="room-info">
+                        <h3>Zona giorno </h3>
+                        <p> Zona giorno con divano-letto.</p>
+                        <div class="price">€... / notte (intera struttura)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Wi-Fi</h3>
+                    <p>Connessione veloce in tutta la struttura.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Cucina</h3>
+                    <p>Utensili e strumenti per cucinare dei buoni pasti.</p>
+                    <p>Colazione non inclusa.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>Aria Condizionata e riscaldamento</h3>
+                    <p>Aria condizionata e riscaldamento in tutta la struttura.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-tv"></i>
+                    <h3>TV</h3>
+                    <p>TV a schermo piatto in ogni ambiente.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-chess"></i>
+                    <h3>Intrattenimento</h3>
+                    <p>Giochi da tavolo e puzzle disponibili per gli ospiti.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-parking"></i>
+                    <h3>Parcheggio</h3>
+                    <p>Parcheggio pubblico a pochi metri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Chi Siamo</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="soggiorno.jpg" alt="Il nostro B&B">
+                </div>
+                <div class="about-text">
+                    <p>La nostra casa vacanza unisce semplicità ed eleganza per offrire un'esperienza di soggiorno autentica.</p>
+                    <p>Situato in posizione strategica, è il punto di partenza ideale per esplorare il territorio.</p>
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Galleria</h2>
+            <div class="gallery-container" id="gallery-container">
+                <!-- Le immagini verranno caricate dinamicamente qui -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="location" class="location">
+        <div class="container">
+            <h2>Dove Siamo</h2>
+            <div class="location-content">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.5673926277314!2d17.333582575459406!3d40.70552437139463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134653e5803d4ce5%3A0xe510259f0c5ba4e7!2sLa%20Dimora%20di%20Nonna%20Dora!5e0!3m2!1sit!2sit!4v1746350732075!5m2!1sit!2sit" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="directions">
+                    <h3>Come Raggiungerci</h3>
+                    <p>La Dimora di Nonna Dora si trova nel centro storico di Martina Franca, in Corso Vittorio Emanuele II 12.</p>
+                    <p><strong>In Auto:</strong> Dall'autostrada A14, uscita Taranto Nord, seguire le indicazioni per Martina Franca.</p>
+                    <p><strong>In Treno:</strong> Stazione ferroviaria di Martina Franca, poi 10 minuti a piedi.</p>
+                    <p><strong>In Aereo:</strong> Aeroporto di Brindisi (50 km) o Bari (80 km), poi servizio navetta o auto a noleggio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contattaci</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informazioni di Contatto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Corso Vittorio Emanuele II nr.12, 74015 Martina Franca</p>
+                    <p><i class="fas fa-phone"></i> +39 377 0850432</p>
+                    <p><i class="fas fa-envelope"></i> ladimoradinonnadora@gmail.com</p>
+                    <div class="contact-hours">
+                        <h4>Orari di Check-in/Check-out</h4>
+                        <p>Check-in: 14:00 - 20:00</p>
+                        <p>Check-out: entro le 10:00</p>
+                        <p><small>Per orari diversi, contattaci in anticipo</small></p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div id="form-message"></div>
+                    <form action= "https://formspree.io/f/mzzreqkj" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="nome" placeholder="Nome e Cognome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="telefono" placeholder="Numero di telefono">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group half">
+                                <input type="date" name="arrivo" placeholder="Arrivo">
+                            </div>
+                            <div class="form-group half">
+                                <input type="date" name="partenza" placeholder="Partenza">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select name="ospiti">
+                                <option value="" disabled selected>Numero di ospiti</option>
+                                <option value="1">1 ospite</option>
+                                <option value="2">2 ospiti</option>
+                                <option value="3">3 ospiti</option>
+                                <option value="4">4 ospiti</option>
+                                <option value="5">5 ospiti</option>
+                                <option value="6">6 ospiti massimo  </option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="messaggio" placeholder="Il tuo messaggio" rows="4"></textarea>
+                        </div>
+                        <button type="submit">Invia Richiesta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>La Dimora di Nonna Dora - Corso Vittorio Emanuele II nr.12 - 74015 Martina Franca</p>
+            <p>Tel:  +39 377 0850432 | Email: ladimoradinonnadora@gmail.com</p>
+            <p>CIS: TA07301391000012398</p>
+            <p>CIN: IT073013C200047552</p>
+            <p><a href="cookies.html"><i class="fas fa-cookie-bite"></i> Cookies Policy</a></p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.booking.com/searchresults.it.html?aid=311091&label=la-dimora-di-nonna-dora-OJYfq2eawpiv8nT4PDwX6AS625097917636%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-845574396850%3Alp9195689%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YR10fBTovuitU5KVyXYg8iQ&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkb31z8YTO3wbwO3E34k74flpHX9hueQOOV4sTQEKRnBc0hePN8id4aAncBEALw_wcB&highlighted_hotels=5161849&redirected=1&city=-121224&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=17ae3fc8b6286f3df24779bda7e4bd88" target="_blank"><i class="fas fa-bed"></i> </a>
+            </div>
+            <p>&copy; 2025 La Dimora di Nonna Dora Casa Vacanza. Tutti i diritti sono riservati.</p>
+            Web by <a href="https://www.instagram.com/_matteomarino">Matteo Marino</a>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/393770850432" class="whatsapp-banner" target="_blank" style="text-decoration: none;">
+        <i class="fab fa-whatsapp" style="text-decoration: none; line-height: 1; display: flex; align-items: center; justify-content: center;"></i>
+    </a>
+    
+    <a href="https://www.instagram.com/ladimoradinonnadora" class="instagram-banner" target="_blank" style="text-decoration: none;">
+        <i class="fab fa-instagram" style="text-decoration: none; line-height: 1; display: flex; align-items: center; justify-content: center;"></i>
+        <span>Seguici su Instagram</span>
+    </a>
+    
+
+    
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>Questo sito utilizza cookie tecnici per migliorare la tua esperienza di navigazione. Continuando a navigare accetti l'utilizzo dei cookie.</p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies">Accetta</button>
+                <button id="cookie-policy-btn" onclick="window.location.href='cookies.html'">Cookie Policy</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js?v=2"></script>
+</body>
+</html>
