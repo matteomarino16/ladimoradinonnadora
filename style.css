@@ -616,9 +616,18 @@ nav ul li:nth-child(n+6) a:hover i {
         gap: 30px;
     }
     
+    /* Miglioriamo il layout del form contatti su tablet */
     .contact-content {
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr;
         gap: 30px;
+    }
+    
+    .contact-info {
+        padding: 20px;
+    }
+    
+    .contact-form {
+        padding: 20px;
     }
     
     /* Manteniamo il menu orizzontale */
@@ -641,11 +650,21 @@ nav ul li:nth-child(n+6) a:hover i {
         font-size: 0.8rem;
     }
     
-    /* Manteniamo il layout a riga per le date */
+    /* Miglioriamo il layout per le date su tablet */
     .form-row {
         display: flex;
         flex-direction: row;
         gap: 15px;
+    }
+    
+    /* Ottimizziamo i campi del form per tablet */
+    input, textarea, select {
+        padding: 12px 15px;
+        font-size: 16px; /* Previene lo zoom su iOS */
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
     }
     
     /* Adattiamo la mappa */
@@ -670,6 +689,34 @@ nav ul li:nth-child(n+6) a:hover i {
     /* Adattiamo le camere */
     .rooms {
         gap: 20px;
+    }
+}
+
+/* Per schermi medi - Tablet piccoli e telefoni grandi */
+@media (max-width: 600px) and (min-width: 481px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .contact-info, .contact-form {
+        padding: 25px;
+    }
+    
+    .form-row {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+    
+    input, textarea, select {
+        padding: 14px 16px;
+        font-size: 16px;
+    }
+    
+    button {
+        padding: 14px 25px;
+        font-size: 0.95rem;
     }
 }
 
@@ -724,10 +771,12 @@ nav ul li:nth-child(n+6) a:hover i {
     .contact-info {
         order: 1;
         margin-bottom: 20px;
+        padding: 20px;
     }
     
     .contact-form {
         order: 2;
+        padding: 20px;
     }
     
     .form-row {
@@ -764,9 +813,14 @@ nav ul li:nth-child(n+6) a:hover i {
     }
     
     button {
-        padding: 12px 20px;
-        font-size: 0.9rem;
-        border-radius: 6px;
+        padding: 14px 20px;
+        font-size: 0.95rem;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    
+    .form-group {
+        margin-bottom: 18px;
     }
     
     .form-row {
